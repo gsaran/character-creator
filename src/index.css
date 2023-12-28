@@ -5,7 +5,9 @@ body,
 }
 
 body {
-  background-color: hsl(180deg, 25%, 92%);
+  height: 100vh;
+  background: linear-gradient(hsl(180deg, 25%, 92%) 60%, hsl(195deg, 20%, 86%) 40%);
+  overflow: hidden;
   margin: 0;
 }
 
@@ -29,4 +31,8 @@ body {
   margin: -1px;
   padding: 0;
   border: 0;
+}
+
+#root {
+  overflow: auto;
 }

@@ -8,6 +8,7 @@ function App() {
     <>
       <CharacterEditor />
       <Footer />
+      <div id="perspective"></div>
     </>
   );
 }
